@@ -1,0 +1,10 @@
+version: '2'
+services:
+  myproject:
+    build: ./
+    container_name: my_project
+    restart: always
+    volumes:  
+      - ./code:/var/www/html
+    ports:
+      - 80:80
