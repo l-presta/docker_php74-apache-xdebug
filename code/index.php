@@ -1,8 +1,8 @@
 <?php
 
-$str = 'World';
+$str = 'Mondo';
 
-$greeting = "Hello $str";
+$greeting = "Ciao $str";
 
 echo $greeting . "\n";
 
