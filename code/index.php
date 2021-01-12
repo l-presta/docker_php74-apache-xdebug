@@ -4,6 +4,8 @@ $str = 'Mondo';
 
 $greeting = "Ciao $str crudele!!!!";
 
+echo "ciaoooo";
+
 echo $greeting . "\n";
 
 // For loop
